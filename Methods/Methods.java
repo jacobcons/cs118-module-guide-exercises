@@ -13,8 +13,7 @@ class Complex {
         this.img = img;
     }
 
-    public String toString() {
-        
+    public String toString() {     
         return String.format("%s + %si", df.format(this.re), df.format(this.img));
     }
 }
