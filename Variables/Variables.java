@@ -1,4 +1,4 @@
-public class Earth {
+public class Variables {
     public static void main(String[] args) {
         //Ex7 - you'd use a short to store 6,371
         //Ex8 - you'd use a long to store 7,046,000,000

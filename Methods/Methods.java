@@ -1,9 +1,9 @@
 import java.text.DecimalFormat;
 
 class Complex {
-    public double re;
-    public double img;
-    public static DecimalFormat df = new DecimalFormat();
+    private double re;
+    private double img;
+    private static DecimalFormat df = new DecimalFormat();
     static {
         df.setMaximumFractionDigits(8);
     }
